@@ -1,0 +1,10 @@
+{
+  "name": "PaperScan",
+  "short_name": "PaperScan",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef4f4",
+  "theme_color": "#0d3b4c",
+  "icons": [{ "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
