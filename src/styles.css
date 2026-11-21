@@ -24,3 +24,13 @@
   .camera-controls{gap:9px}
   .shutter{width:62px;height:62px}
 }
+
+.corner-point{touch-action:none;user-select:none;-webkit-user-select:none}
+.corner-overlay{touch-action:none;overscroll-behavior:contain}
+.export-bar{position:relative;overflow:visible}
+.export-main{min-width:110px}
+.export-format-toggle{background:#edf6f5!important}
+.export-format-menu{position:absolute;right:calc(100% - 230px);bottom:calc(100% + 8px);z-index:40;display:grid;gap:4px;min-width:150px;padding:6px;border:1px solid #b8d2d2;border-radius:10px;background:#fff;box-shadow:0 8px 22px #164a5c33}
+.export-format-menu button{border:0;border-radius:7px;background:#fff;color:#185261;padding:9px 10px;text-align:left;font-weight:700}
+.export-format-menu button:hover,.export-format-menu button.selected{background:#d8f2eb;color:#086b60}
+@media(max-width:640px){.export-format-menu{right:auto;left:0;bottom:calc(100% + 8px)}.export-main{flex:1 1 120px}}
